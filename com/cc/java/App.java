@@ -4,20 +4,20 @@ public class App {
     
     public static void main(String[] args) {
 
-        Cat cat1 = new Cat("Grizabella", "white", 29, true);
-        output("Name: " + cat1.getStringAttributes("#name"));
-        output("Fellfarbe " + cat1.getStringAttributes("#furColor"));
-        output("Alter: " + cat1.getAge());
-        output("Alter: " + cat1.getAge());
-        output("Alter: " + cat1.getAge());
-        output("Alter: " + cat1.getAge());
+        Cat cat = new Cat("Grizabella", "white", 29);
+        output("Name: " + cat.getStringAttributes("#name"));
+        output("Fellfarbe " + cat.getStringAttributes("#furColor"));
+        output("Alter: " + cat.getAge());
+        output("Alter: " + cat.getAge());
+        output("Alter: " + cat.getAge());
+        output("Alter: " + cat.getAge());
 
         output("-------------");
 
-        Cat cat2 = new Cat("Alonzo", "grey", 35, false);
-        output("Name: " + cat2.getStringAttributes("#name"));
-        output("Fellfarbe " + cat2.getStringAttributes("#furColor"));
-        output("Alter: " + cat2.getAge());
+        Tomcat tomcat = new Tomcat("Alonzo", "grey", 35);
+        output("Name: " + tomcat.getStringAttributes("#name"));
+        output("Fellfarbe " + tomcat.getStringAttributes("#furColor"));
+        output("Alter: " + tomcat.getAge());
         
     }
 

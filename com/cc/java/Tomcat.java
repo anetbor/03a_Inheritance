@@ -12,7 +12,7 @@ public class Tomcat {
         this.age = age;
     }
 
-       /** Getter */
+    /** Getter */
     public String getStringAttributes(String flag) {
         switch (flag) {
             case "#name":
